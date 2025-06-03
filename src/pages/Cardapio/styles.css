@@ -1,0 +1,17 @@
+/* src\pages\Cardapio\styles.css*/
+
+.container-cardapio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 600px) {
+    .container-cardapio{
+        width: 100%;
+        height: 100%;
+    }
+}
