@@ -1,0 +1,17 @@
+/* src\pages\Cadastro\styles.css */
+.cadastro-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 32px;
+    background-color: transparent;
+    border: 10px solid transparent;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .cadastro-container {
+        padding: 16px;
+    }
+}

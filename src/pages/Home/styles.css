@@ -1,0 +1,15 @@
+/* src\pages\Home\styles.css */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+@media (max-width: 600px) {
+  .home {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,70 @@
+/* src\App.css */
+/* Global CSS */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    font-family: cursive, sans-serif;
+    background: linear-gradient(to bottom, #036d2688, #fffffff8, rgba(179, 12, 12, 0.7)), 
+                url('../src/assets/images/unnamed.png');
+    background-repeat: repeat;
+    background-size: cover;
+    color: #000000;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    margin: 0;
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    font-family: cursive, sans-serif;
+    cursor: pointer;
+    border: none;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid #949090;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #444444;
+}
+
+button:active {
+    color: white;
+}

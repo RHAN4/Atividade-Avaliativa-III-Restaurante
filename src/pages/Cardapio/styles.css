@@ -1,0 +1,126 @@
+/* src\pages\Cardapio\styles.css*/
+
+.pagina-lista-pratos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 32px;
+    background-color: #f0f0f0;
+}
+
+.pagina-lista-pratos .container {
+    padding: 32px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px; 
+    max-height: 80vh;
+    overflow-y: auto;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex; 
+    flex-direction: column; 
+}
+
+.pagina-lista-pratos .container h2.header-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 45px; 
+    color: #000000; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    font-weight: bold;
+    text-align: center; 
+}
+
+.pagina-lista-pratos .container .link-voltar {
+    display: block;
+    margin-top: 25px; 
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    padding: 8px 15px; 
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagina-lista-pratos .container .link-voltar:hover {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+}
+
+
+.lista-pratos { 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px; 
+}
+
+.lista-pratos li { 
+    background-color: #ffffff73; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px; 
+    max-width: 350px; 
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 250px; 
+}
+
+.lista-pratos li strong {
+    margin-right: 5px;
+    color: #000000;
+}
+
+.lista-pratos li p { 
+    margin: 5px 0;
+    line-height: 1.4; 
+}
+
+.lista-pratos li img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 1024px) {
+    .lista-pratos li {
+        flex: 1 1 calc(50% - 25px); 
+        max-width: unset; 
+    }
+}
+
+@media (max-width: 768px) {
+    .pagina-lista-pratos .container {
+        max-width: 95%; 
+    }
+    .lista-pratos li {
+        flex: 1 1 100%; 
+        max-width: unset;
+    }
+}
+
+@media (max-width: 480px) {
+    .pagina-lista-pratos .container {
+        padding: 20px;
+    }
+    .pagina-lista-pratos .container h2.header-title {
+        font-size: 35px;
+    }
+}

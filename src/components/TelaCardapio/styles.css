@@ -1,0 +1,14 @@
+/* Estilização para o cardápio */
+.lista-pratos li {
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #F2AA52;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .lista-pratos li strong {
+    font-weight: bold;
+  }
