@@ -12,7 +12,7 @@ function ListaDePratos() {
         const carregarPratos = async () => {
             try {
                 
-                const response = await axios.get('https://back-end-x2hk.onrender.com');
+                const response = await axios.get('https://back-end-x2hk.onrender.com/pratos');
                 setPratos(response.data);
             } catch (error) {
                 
