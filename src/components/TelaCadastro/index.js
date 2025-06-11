@@ -35,7 +35,7 @@ function TelaCadastro() {
         }
 
         try {
-            const response = await axios.post('https://render-deploy-fg4u.onrender.com', { nomePrato, descricao, preco, categoria, disponibilidade, urlImagem })
+            const response = await axios.post('https://atividade-avaliativa-iii-front-end.onrender.com', { nomePrato, descricao, preco, categoria, disponibilidade, urlImagem })
             exibirMensagem(response.data.mensagem || 'Prato cadastrado com sucesso', 'sucesso')
             setNomePrato('')
             setDescricao('')
