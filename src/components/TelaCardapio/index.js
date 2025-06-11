@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import axios from "axios";
-import './styles.css'; // Mantenha ou ajuste conforme seu CSS para pratos
+import './styles.css';
 
 function ListaDePratos() {
     // 1. Estado para armazenar os pratos
@@ -11,11 +11,11 @@ function ListaDePratos() {
     useEffect(() => {
         const carregarPratos = async () => {
             try {
-                // 2. URL da API para pratos
-                const response = await axios.get('http://localhost:8080/pratos');
+                
+                const response = await axios.get('https://back-end-x2hk.onrender.com/pratos');
                 setPratos(response.data);
             } catch (error) {
-                // Melhorando a depuração do erro
+                
                 console.error('Erro ao buscar pratos:', error);
                 alert('Erro ao buscar pratos. Verifique o console para mais detalhes.');
                 setPratos([]);

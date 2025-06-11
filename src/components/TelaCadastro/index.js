@@ -35,7 +35,7 @@ function TelaCadastro() {
         }
 
         try {
-            const response = await axios.post('http://localhost:8080/pratos', { nomePrato, descricao, preco, categoria, disponibilidade, urlImagem })
+            const response = await axios.post('https://back-end-x2hk.onrender.com/pratos', { nomePrato, descricao, preco, categoria, disponibilidade, urlImagem })
             exibirMensagem(response.data.mensagem || 'Prato cadastrado com sucesso', 'sucesso')
             setNomePrato('')
             setDescricao('')
