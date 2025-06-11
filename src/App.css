@@ -6,10 +6,11 @@ body {
     height: 100vh;
     display: flex;
     font-family: cursive, sans-serif;
-     background: linear-gradient(to bottom, #036d2688, #fffffff8, rgba(179, 12, 12, 0.7)), 
+    background: linear-gradient(to bottom, #036d2688, #fffffff8, rgba(179, 12, 12, 0.7)), 
                 url('../src/assets/images/unnamed.png');
-    background-repeat: repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #000000;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -27,7 +28,6 @@ p {
 }
 
 a {
-    
     text-decoration: none;
     color: inherit;
 }
@@ -41,7 +41,6 @@ button {
     font-family: cursive, sans-serif;
     cursor: pointer;
     border: none;
-    
 }
 
 * {
