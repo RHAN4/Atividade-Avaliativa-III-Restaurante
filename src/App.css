@@ -6,7 +6,7 @@ body {
     height: 100vh;
     display: flex;
     font-family: cursive, sans-serif;
-     background: /*linear-gradient(to bottom, #036d2688, #fffffff8, rgba(179, 12, 12, 0.7)),  */
+     background: linear-gradient(to bottom, #036d2688, #fffffff8, rgba(179, 12, 12, 0.7)), 
                 url('../src/assets/images/unnamed.png');
     background-repeat: repeat;
     background-size: cover;
@@ -27,6 +27,7 @@ p {
 }
 
 a {
+    
     text-decoration: none;
     color: inherit;
 }
