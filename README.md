@@ -1,8 +1,12 @@
 <h1 align="center"> Escaneie o QRCode abaixo para acessar o Papa's cardápio </h1>
 
 <p align="center">
-  <img src="/images/qrcode.png" width="200" height="300" alt="QR Code" />
+  <a href="https://atividade-avaliativa-iii-front-end.onrender.com/">
+    <img src="/images/qrcode.png" width="200" height="300" alt="QR Code" />
+  </a>
 </p>
+
+---
 
 <h2 align="center">Autores</h2>
 
