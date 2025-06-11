@@ -12,7 +12,7 @@ function ListaDePratos() {
         const carregarPratos = async () => {
             try {
                 
-                const response = await axios.get('https://atividade-avaliativa-iii-front-end.onrender.com/pratos');
+                const response = await axios.get('https://atividade-avaliativa-iii-front-end.onrender.com/prato');
                 setPratos(response.data);
             } catch (error) {
                 
