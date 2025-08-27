@@ -1,4 +1,4 @@
-<h1 align="center"> Escaneie o QRCode abaixo para acessar o Papa's cardápio </h1>
+<h1 align="center"> Escaneie ou clique o QRCode abaixo para acessar o Papa's cardápio </h1>
 
 <p align="center">
   <a href="https://atividade-avaliativa-iii-front-end.onrender.com/">
